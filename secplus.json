@@ -1,0 +1,304 @@
+{
+  "Overview of Security":
+  {
+    "Information security": "Act of protecting data and information from unauthorized access, unlawful modification and disruption, disclosure, corruption, and destruction.",
+    "Information systems security": "Act of protecting the systems that hold and process our critical data."
+  },
+  "CIA triad":
+  {
+    "Confidentiality": "Information has not been disclosed to unauthorized people.",
+    "Integrity": "Information has not been modified or altered without proper authorization.",
+    "Availability": "Information is able to be stored, accessed or protected at all times."
+  },
+  "AAA of Security":
+  {
+    "Authentication": "When a person's identity is established with proof and confirmed by the system.",
+    "Authorization": "Occurs when a user is given access to a certain piece of data or certain areas of a building.",
+    "Accounting": "Tracking of data, computer usage and network resources.",
+    "Non-repudiation": "Occurs when you have proof that someone has taken an action."
+  },
+  "Security threats":
+  {
+    "Malware": "Shorthand term for malicious software.",
+    "Unauthorized access": "Occurs when access to computer resources and data occurs without the consent of the owner.",
+    "System failure": "Occurs when a computer crashes or an individual application fails.",
+    "Social engineering": "Act of manipulating users into revealing confidential information or performing other detrimental actions."
+  },
+  "Types of hackers":
+  {
+    "White hats": "Non-malicious hackers who attempt to break into a company's systems at their request.",
+    "Black hats": "Malicious hackers who break into computer systems and networks without authorization or permission.",
+    "Gray hats": "Hackers without any affiliation to a company who attempt to break into a company's network but risk the law by doing so.",
+    "Blue hats": "Hackers who attempt to hack into a network with permission of the company but are not employed by the company.",
+    "Elite": "Hackers who find and exploit vulnerabilities before anyone else does."
+  },
+  "Threat actors":
+  {
+    "Script kiddies": "Hackers with little to no skill who only use the tools and exploits written by others.",
+    "Hacktivists": "Hackers who are driven by a cause like social change, political agendas or terrorism.",
+    "Organized crime": "Hackers who are part of a crime group that is well-funded and highly sophisticated.",
+    "Advanced persistent threats": "Highly trained and funded groups of hackers (often by nation states) with covert and open-source intelligence at their disposal."
+  },
+  "Malware":
+  {
+    "Virus": "Code that infects a computer when a file is opened or executed.",
+    "Worm": "Acts like a virus but can self-replicate.",
+    "Trojan": "Appears to do a desired functions but also does something malicious.",
+    "Ransomware": "Takes control of your computer or data unless you pay.",
+    "Spyware": "Software that collects your information without your consent.",
+    "Rootkit": "Gains administrative control of your system by targeting boot loader or kernel.",
+    "Spam": "Abuse of electronic messaging systems.",
+    "Threat vector": "Method used by an attacker to access a victim's machine.",
+    "Attack vector": "Method used by an attacker to gain access a victim's machine in order to infect it with malware.",
+    "Watering holes": "Malware is placed on a website that you know your potential victims will access.",
+    "Botnet": "A collection of compromised computers under the control of a master node. Utilized in other processor-intensive functions and activities.",
+    "Active interception": "Occurs when a computer is placed between the sender and receiver and is able to capture or modify the traffic between them.",
+    "Privilege escalation": "Occurs when you are able to exploit a design flaw or bug in a system to gain access to resources that a normal user can't.",
+    "Logic bomb": "Malicious code that has been inserted inside a program and will execute only when certain conditions have been met."
+  },
+  "Security applications and devices":
+  {
+    "Removable media controls": "Technical limitations placed on a system in regards to the utilization of USB storage devices and other removable media.",
+    "Network attached storage (NAS)": "Storage devices that connect directly to your organization's network.",
+    "Storage area network (SAN)": "Network designed specifically to perform block storage functions that may consist of NAS devices.",
+    "Personal firewalls": "Software application that protects a single computer from unwanted Internet traffic. Examples are Windows Firewall, PF and IPFW (Mac), and iptables (Linux).",
+    "Intrusion detection system (IDS)": "Device or software application that monitors a system or network and analyzes the data passing through it in order to identify an incident or attack. Can be host-based or network-based."
+  },
+  "Detection methods":
+  {
+    "Signature-based detection": "A specific string of bytes triggers an alert.",
+    "Policy-based detection": "Relies on specific declaration of the security policy.",
+    "Anomaly-based detection": "Analyzes the current traffic against an established baseline and triggers an alert if outside the statistical average."
+  },
+  "Types of Alerts":
+  {
+      "True positive": "Malicious activity is identified as an attack.",
+      "False positive": "Legitimate activity is identified as an attack.",
+      "True negative": "Legitimate activity is identified as legitimate traffic.",
+      "False negative": "Malicious activity is identified as legitimate traffic."
+  },
+  "Data loss prevention":
+  {
+      "Endpoint DLP system": "Software-based client that monitors the data in use on a computer and can stop a file transfer or alert an admin of the occurrence.",
+      "Network DLP system": "Software- or hardware-based solution that is installed on the perimeter of the network to detect data in transit.",
+      "Storage DLP system": "Software installed on servers in the datacenter to inspect the data at rest.",
+      "Cloud DLP system": "Software as a service that protects the data being stored in cloud services."
+  },
+  "Disk encryption":
+  {
+    "Self-encrypting drive (SED)": "Storage device that performs whole disk encryption by using embedded hardware.",
+    "Trusted Platform Module (TPM)": "Chip residing on the motherboard that contains an encryption key.",
+    "Advanced Encryption Standard (AES)": "Symmetric key encryption that supports 128-bit and 256-bit keys.",
+    "Hardware Security Module (HSM)": "Physical devices that act as a secure cryptoprocessor during the encryption process."
+  },
+  "Mobile Device Security":
+  {
+    "WiFi Protected Access 2 (WPA2)": "Highest level of wireless security.",
+    "Subscriber Identity Module (SIM)": "Integrated circuit that securely stores the international module subscriber identity (IMSI) number and its related key.",
+    "SIM cloning": "Allows two phones to utilize the same service and allows an attacker to gain access to the phone's data.",
+    "Bluejacking": "Sending of unsolicitied messages to Bluetooth-enabled devices.",
+    "Bluesnarfing": "Unauthorized taking of information from a wireless device over a Bluetooth connection.",
+    "Mobile Device Management": "Centralized software solution that allows system administrators to create and enforce policies across its mobile devices.",
+    "Geotagging": "Embedding of the geolocation coordinates into a piece of data like a photo.",
+    "Storage segmentation": "Creating a clear separation between personal and company data on a single device."
+  },
+  "Updates and patches":
+  {
+    "Hotfix or patch": "A single problem-fixing piece of software for an operating system or application.",
+    "Security update": "Software code that is issued for a product-specific security-related vulnerability.",
+    "Critical update": "Software code for a specific problem addressing a critical, non-security bug in the software.",
+    "Service pack": "A tested, cumulative grouping of patches, hotfixes, security updates, critical updates and possibly some feature or design changes.",
+    "Windows update": "Recommended update to fix a noncritical problem that users have found, as well as to provide additional features or capabilities.",
+    "Driver update": "Updated device driver to fix a security issue or add a feature to a supported piece of hardware.",
+    "Patch management": "Process of planning, testing, implementing and auditing of software patches."
+  },
+  "Policies":
+  {
+      "Group policy": "A set of rules or policies that can be applied to a set of users or computer accounts within the operating system.",
+      "Security template": "A group of policies that can be loaded through one procedure.",
+      "Baselining": "Process of measuring changes in the network, hardware and software environment."
+  },
+  "File systems and hard drives":
+  {
+      "New Technology File System (NTFS)": "Default file system format for Windows; more secure because it supports logging, encryption, larger partitions and larger file sizes than FAT32.",
+      "ext4": "Preferred file system for Linux.",
+      "APFS": "Preferred file system for Mac OS X."
+  },
+  "Virtualization":
+  {
+      "System Virtual Machine": "Complete platform designed to replace an entire physical computer and includes a full desktop/server operating system.",
+      "Processor Virtual Machine": "Designed to only run a single process or application like a virtualized web browser or a simple web server.",
+      "Hypervisor": "Manages the distribution of the physical resources of a host machine (server) to the virtual machines being run (guests).",
+      "Application Containerization": "A single OS kernel is shared across multiple virtual machines but each VM receives its own user space for programs and data."
+  },
+  "Threats to VMs":
+  {
+      "VM escape": "Breaking out of a normally isolated VM by interacting directly with the hypervisor.",
+      "Data remnants": "Contents of a VM that exist as deleted files on a cloud-based server after deprovisioning a VM.",
+      "Privilege escalation": "User is able to grant themselves the ability to run functions as a higher-level user.",
+      "Virtualization sprawl": "Occurs when VMs are created, used and deployed without proper management or oversight by system admins"
+  },
+  "Web browser concerns":
+  {
+      "Cookies": "Text files placed on a client's computer to store information about the user's browsing habits, credentials and other data.",
+      "Locally Shared Object (LSO)": "AKA Flash cookies; stored in your Windows user profile under the Flash folder inside of your AppData folder.",
+      "Add-ons": "Smaller browser extensions and plugins that provide additional functionality to a browser.",
+      "Advanced security options": "Browser configuration and settings for options such as SSL/TLS settings, local storage/cache size, and browsing history."
+  },
+  "Secure Software Development":
+  {
+      "Threat modeling": "Helps prioritize vulnerability identification and patching",
+      "Least privilege": "Users and processes should be run using the least amount of access necessary to perform a given function.",
+      "Defense in Depth": "Layering of security controls is more effective and secure than relying on a single control.",
+      "Never trust user input": "Perform input validation prior to allowing it to be utilized by an application.",
+      "Minimize attack surface": "Reduced the amount of code used by a program, eliminate unneeded functionality, and require authentication prior to running additional plugins.",
+      "Create secure defaults": "Normal installs should include secure configurations instead of requiring an admin or user to add in additional security.",
+      "Authenticity and integrity": "Applications should be deployed using code signing to ensure the program is not changed inadvertently or maliciously prior to delivery to an end user.",
+      "Fail securely": "Applications should be coded to properly conduct error handling for exceptions in order to fail securely instead of crashing.",
+      "Fix security issues": "If a vulnerability is identified, then it should be quickly and correctly patched to remove the vulnerability.",
+      "Rely on Trusted SDKs": "SDKs must come from a trusted source to ensure no malicious code is being added."
+  },
+  "Testing Methods":
+  {
+      "Black-box testing": "A tester is not provided with any information about the system or program prior to conducting the test.",
+      "White-box testing": "A tester is provided full details of a system including source code, diagrams and user credentials in order to conduct the test.",
+      "Structured exception handling (SEH)": "Provides control over what the application should do when faced with a runtime or syntax error.",
+      "Input validation": "Applications ensure information received from a user matches a specific format or range of values.",
+      "Static analysis": "Source code of an application is reviewed manually or with automatic tools without running the code.",
+      "Dynamic analysis": "Testing of a program occurs while it is being executed.",
+      "Fuzzing": "Injection of randomized data into a software program in an attempt to find system failures, memory leaks, error handling issues, and improper input validation."
+  },
+  "Software vulnerabilities and exploits":
+  {
+      "Backdoors": "Code placed in computer programs to bypass normal authentication and other security mechanisms.",
+      "Directory traversal": "Accessing unauthorized folders by moving through the directory structure on a remote server.",
+      "Arbitrary code execution": "Executing or running commands on a victim computer.",
+      "Remote code execution": "Executing or running commands on a remote computer.",
+      "Zero day": "Attack against a vulnerability that is unknown to the original developer or manufacturer.",
+      "Buffer overflow": "A process stores data outside the memory range allocated to the developer.",
+      "Stack": "Reserved area of memory where the program saves the return address when a function call instruction is received.",
+      "Smashing the stack": "An attacker fills up the buffer with NOP so that the return address may hit a NOP and continue on until it finds the attacker's code to run.",
+      "Cross-site scripting (XSS)": "Embedding malicious scripting commands on a trusted website.",
+      "Stored/persistent XSS": "Attempts to get data provided by the attacker to be saved on the web server by the victim.",
+      "Reflected XSS": "Attempts to have a non-persistent effect activated by the victim clicking a link on a website.",
+      "DOM-based XSS": "Attempt to exploit the victim's web browser.",
+      "Cross-site Request Forgery (XSRF/CSRF)": "Attacker forces a user to execute actions on a web server for which they are already authenticated.",
+      "SQL injection": "Insertion of additional input data from the client to a web application.",
+      "Injection attack": "Insertion of additional information or code through data input from a client to an application; examples include SQL, HTML, XML and LDAP."
+  },
+  "Open Systems Interconnection (OSI)":
+  {
+      "OSI model": "Used to explain network communications between a host and remote device over a LAN or WAN.",
+      "Physical layer": "Represents the actual network cables and radio waves used to carry data over a network.",
+      "Data link layer": "How a connection is established, maintained and transferred over the physical layer and uses physical addressing (MAC addresses).",
+      "Network layer": "Uses logical address to route or switch information between hosts, the network and the internetworks.",
+      "Transport layer": "Manages and ensures transmission of the packets occurs from a host to a destination using either TCP or UDP.",
+      "Session layer": "Manages the establishment, termination and synchronization of a session over the network.",
+      "Presentation layer": "Translates the information into a format that the sender and receiver both understand.",
+      "Application layer": "Layer from which the message is created, formed and originated, using high-level protocols like HTTP, SMTP and FTP."
+  },
+  "Switches":
+  {
+      "Switches": "Combined evolution of hubs and bridges.",
+      "MAC Flooding": "Attempt to overwhelm the limited switch memory set aside to store the MAC addresses for each port. Can fail open when flooded and begin to act like a hub.",
+      "MAC Spoofing": "Attacker masks their own MAC address to pretend that they have the MAC address of another device. Often combined with an ARP spoofing attack."
+  },
+  "Routers":
+  {
+      "Routers": "Used to connect two or more networks to form an internetwork. Rely on packet's IP addresses to determine a proper destination.",
+      "Access Control List (ACL)": "An ordered set of rules used to decide whether to permit or deny traffic based upon given characteristics.",
+      "IP spoofing": "Used to trick a router's ACL."
+  },
+  "Network Zones":
+  {
+      "De-Militarized Zone (DMZ)": "Focused on providing controlled access to publicly available servers that are hosted within your organizational network.",
+      "Extranet": "Special type of DMZ that is created for partner organizations to access over a WAN.",
+      "Intranet": "Type of network used when only one company is involved."
+  },
+  "Network Access Control":
+  {
+      "Network Access Control (NAC)": "Security technique in which devices are scanned to determine its current state prior to being allowed access onto a given network.",
+      "Persistent Agents": "A piece of software that is installed on the device requesting access to the network.",
+      "Non-Persistent Agents": "Uses a piece of software that scans the device remotely or is installed and subsequently removed after the scan.",
+      "IEEE 802.1 standard": "Used in port-based NAC.",
+      "Data Loss Prevention": "Systems designed to protect data by conducting content inspection of data being sent out of the network. Also called Information Leak Protection or Extrusion Prevention Systems."
+    },
+  "Virtual LANs (VLANs)":
+  {
+      "Switch spoofing": "Attacker configures their device to pretend it is a switch and uses it to negotiate a trunk link to break out of a VLAN.",
+      "Double tagging": "Adding an additional VLAN tag to create an outer and inner tag."
+  },
+  "Subnetting":
+  {
+      "Subnetting": "Act of creating subnetworks logically through the manipulation of IP addresses.",
+      "Network Address Translation (NAT)": "Changing an IP address while it transits across a router.",
+      "Port Addresss Translation (PAT)": "Router keeps track of requests from internal hosts by assigning them random high number ports for each request.",
+      "Class A": "10.0.0.0 to 10.255.255.255",
+      "Class B": "172.16.0.0 to 172.31.0.0",
+      "Class C": "192.168.0.0 to 192.168.255.255"
+  },
+  "Telephony":
+  {
+      "Telephony": "Describes devices that provide voice communication to users.",
+      "Modem": "Device that can modulate digital information into an analog signal for transmission over a standard dial-up phone line.",
+      "War dialing": "Calling consecutive phone numbers to search for one that has a signal from a modem. Eliminate by implementing a callback feature.",
+      "Public Branch Exchange (PBX)": "Internal phone system used in large organizations.",
+      "Voice over Internet Protocol (VoIP)": "Digital phone service provided by software or hardware devices over a data network."
+  },
+  "Firewalls":
+  {
+      "Firewalls": "Screen traffic between two portions of a network.",
+      "Packet filtering": "Inspects each packet passing through the firewall and accepts or rejects it based on the rules.",
+      "Stateful packet filtering": "Tracks requests leaving the network.",
+      "NAT filtering": "Filters traffic based upon the ports being utilized and type of connection (TCP or UDP).",
+      "Perimeter security": "Security devices focused on the boundary between the LAN and the WAN in your organization's network.",
+      "Circuit-level gateway": "Operates at the session layer and only inspects the traffic during the establishment of the initial session over TCP or UDP.",
+      "Explicit allow": "Traffic is allowed to enter or leave the network because there is an ACL rule that specifically allows it.",
+      "Explicit deny": "Traffic is denied the ability to enter or leave the network because there is an ACL rule that specifically denies it.",
+      "Implicit deny": "Traffic is denied the ability to enter or leave the network because there is no specific rule that allows it.",
+      "Web application firewall": "Installed to protect your server by inspecting traffic being sent to a web application."
+   },
+   "Proxies":
+   {
+       "Proxy server": "A device that acts as a middleman between a device and a remote server.",
+       "IP Proxy": "Used to secure a network by keeping its machines anonymous during web browsing",
+       "Caching Proxy": "Attempts to serve client requests by delivery content from itself without actually contacting the remote server.",
+       "Internet Content Filter": "Used in organizations to prevent users from accessing prohibited websites and other content.",
+       "Web Security Gateway": "Go-between device that scans for viruses, filters unwanted content, and performs data loss prevention functions."
+   },
+   "Honeypots and Honeynets":
+   {
+       "Honeypot": "A single computer (or file, group of files, or IP range) that might be attractive to an attacker.",
+       "Honeynet": "A group of computers, servers or networks used to attract an attacker."
+   },
+   "Network Defenses":
+   {
+       "Network Intrusion Detection Systems": "Attempts to detect, log and alert on malicious network activities.",
+       "Network Intrusion Prevention Systems": "Attempts to remove, detain or redirect malicious traffic. Should be installed inline with the network traffic flow.",
+       "Unified Threat Management": "Combination of network security devices and tech to provide more defense in depth within a single device. Also known as Next-Generation Firewall (NGFW)."
+   },
+   "Cloud Security":
+   {
+       "Cloud Computing": "A way of offering on-demand services that extend the traditional capabilties of a computer or network.",
+       "Virtual Desktop Infrastructure (VDI)": "Allows a cloud provider to offer a full desktop OS to an end user from a centralized server.",
+       "Public Cloud": "Service provider makes resources available to end users over the Internet",
+       "Private Cloud": "A company creates its own cloud environment that only it can utilize as an internal enterprise resource. Chosen when security is more important than cost.",
+       "Community Cloud": "Resources and costs are shared among several different organizations who have common service needs.",
+       "Software as a Service (SaaS)": "Provides all the hardware, OS, software and applications needed for a complete service to be delivered.",
+       "Infrastructure as a Service (IaaS)": "Provides all the hardware, OS and backend software needed to develop your own software or service.",
+       "Platform as a Service (PaaS)": "Provides your organization with the hardware and software needed for a specific service to operate.",
+       "Security as a Service (SaaS)": "Provides your organization with various types of security services without the need to maintain a cybersecurity staff.",
+       "Sandboxing": "Utilizes separate virtual networks to allow security professionals to test suspicious or malicious files."
+   },
+   "Defending Servers":
+   {
+       "File servers": "Servers are used to store, transfer, migrate, synchronize and archive files for your organization.",
+       "FTP server": "A specialized type of file server that is used to host files for distribution across the web.",
+       "Domain controller": "A server that acts as a central repository of all the user accounts and their associated passwords for the network."
+   },
+   "Network attacks":
+   {
+       "": ""
+   }
+
+}
