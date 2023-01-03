@@ -1,14 +1,12 @@
 {
-  "Schools of thought":
-  {
+  "Schools of thought": {
     "Classical economics": "Leave the market to its own devices, and it will naturally find a point of equilibrium that will bring stability and prosperity.",
     "Marxism": "Inequalities brought about by capitalism will eventually lead to workers seizing control in order to establish a socialist economy.",
     "Keynesian economics (positive)": "Business cycles are driven by how much people are prepared to spend. When demand falls, recessions follow. Government intervention can help weather these.",
     "Neoclassical synthesis": "Keynes was right about the short term but the classicals were right about the long term. Government intervention should be limited to the short term.",
     "Austrian school": "Only individuals know how much they value things and only the market can coordinate efficiently everyone's preferences. No government can know better than the market."
   },
-  "Economic systems":
-  {
+  "Economic systems": {
     "Free market capitalism": "Free markets and private ownership will result in maximum prosperity and freedom for all. Companies should be able to trade any commodity without restrictions.",
     "Market socialism": "The state owns the means of production and sets prices but firms are run by their own managers.",
     "Central planning": "The state controls all the machines and factories and makes all investment decisions. There is no role for free market forces here.",
@@ -16,8 +14,7 @@
     "Shock therapy": "The best way to fix a broken economy is in one fell swoop, but to liberalize, a country needs a restructured economy and a framework of law and regulation.",
     "Washington consensus": "Keep your controls open and your government small and business will grow, grow, grow."
   },
-  "Economic cycles":
-  {
+  "Economic cycles": {
     "Keynesian economics (normative)": "The government should spend and cut taxes to stimulate production, and so lead to full employment, which will soften economic downturns.",
     "Monetarism": "Controlling the supply of money has a direct effect on the economy. Increase the supply to encourage growth, reduce it to control inflation.",
     "Phillips Curve": "A government has to choose -- low inflation or full employment, it can't have both.",
@@ -28,8 +25,7 @@
     "Financial Instability Hypothesis": "Stability makes people reckless. Borrowers borrow to excess; lenders lend to excess. The resulting defaults cause a financial crisis.",
     "Lender of Last Resort": "A safety net for financial crises ... does it encourage excessive risk taking by financial institutions and governments?"
   },
-  "Growth":
-  {
+  "Growth": {
     "Neoclassical growth": "Growth depends on three things: technological change, capital accumulation, and the growth of the labor force. But its rate of growth will slow the larger it becomes.",
     "New growth theory": "Innovation is a direct result of healthy growth, but innovation doesn't happen by accident -- it needs investment.",
     "Creative destruction": "Technological advances and innovative production methods are just two forces of change that see some companies rise and others fall.",
@@ -37,8 +33,7 @@
     "Rule of law": "Free markets work wonders, but for that to happen you need more than a buyer and a seller. You need arbitration between the two in case they get into a fight.",
     "Limits to Growth": "The economy can't keep growing forever, because there's not enough to go around. Eventually there will be nothing left to consume."
   },
-  "Global trade":
-  {
+  "Global trade": {
     "Comparative advantage": "If you produce what you're 'most best' at, and I make what I'm 'least worst' at, and we trade freely, there will be more for everyone.",
     "Heckscher-Ohlin trade model": "Producing and trading in goods that utilize the most abundant production factors will benefit free trade.",
     "New trade theory": "If bigger firms are more efficient, then maybe governments can help create competitive advantage.",
@@ -46,16 +41,14 @@
     "Impossible Trinity": "Fixed exchange rate, international capital mobility, or control of monetary policy? Pick two, because you can't have it all.",
     "Purchasing power parity": "Get rid of borders and your burger will cost the same everywhere. If it doesn't, it's because governments play games with exchange rates."
   },
-  "Choice":
-  {
+  "Choice": {
     "Rational choice": "People make choices for a reason. Whether choosing a car, a university or a spouse, they look at all the facts and make a rational judgment.",
     "Game theory": "Strategic decisions should be made on the presumed actions and reactions of other players.",
     "Public choice": "Politicians and economic actors behave in a way to maximize their personal interest.",
     "Expected utility theory": "How do people make decisions in the face of uncertainty? By weighing the probabilities of possible outcomes and how happy each of those outcomes would make them.",
     "Prospect theory": "People make decisions in the face of uncertainty by comparing possible outcomes to where they stand today (or, at least, how the choices are framed)."
   },
-  "Tax and spend policies":
-  {
+  "Tax and spend policies": {
     "Tax incidence": "Taxes raised on a producer can result in them being passed onto the consumer.",
     "Excess burden": "Taxes cost more than just the money the government gets out of us. It's also all those things we would have consumed but don't because of the tax.",
     "Supply-side economics": "Greater growth depends on greater incentives for those who invest and for those who work. Governments should tax everyone less.",

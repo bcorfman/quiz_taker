@@ -1,6 +1,7 @@
-import random
 import json
+import random
 import textwrap
+
 import npyscreen
 from npyscreen import wgwidget as widget
 from npyscreen.utilNotify import notify_confirm
