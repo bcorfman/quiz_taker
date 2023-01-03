@@ -24,7 +24,7 @@ OR
 
 * In the terminal window, type `poetry run python quiz.py`.
 
-## Controls
+## Console GUI Controls
 
 * Cursor up/down to highlight a choice, and SPACE or ENTER to select it.
 * TAB to the Confirm button, and then SPACE or ENTER to confirm the selection.
