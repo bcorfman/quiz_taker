@@ -23,3 +23,9 @@ OR
 ## To run the code
 
 * In the terminal window, type `poetry run python quiz.py`.
+
+## Controls
+
+* Cursor up/down to highlight a choice, and SPACE or ENTER to select it.
+* TAB to the Confirm button, and then SPACE or ENTER to confirm the selection.
+* Continue through all the questions and receive a final score, or hit ESC to quit early and receive a score up that point.
